@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Strait&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #629584;
+}
+
+/* -- Inicio Cabecalho -- */
+
+h1{
+    font-family: "Strait", serif;
+    font-size: 42px;
+    margin: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* -- Fim Cabecalho -- */
+
+
+
+/* -- Inicio Botoes -- */
+
+
+
+
+/* -- Termino Botoes -- */
+
+/* -- Inicio Footer -- */
+
+footer{
+    width: 100%;
+    background-color: #243642;
+    color: #fff;
+    text-align: center;
+    font-family: "Strait", serif;
+    font-size: 22px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h3{
+    margin: 0px;
+    padding: 1rem;
+}
+
+/* -- Termino Footer -- */
