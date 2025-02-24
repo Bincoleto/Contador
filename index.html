@@ -9,31 +9,34 @@
 <body>
     
     <div class="container">
+        
         <h1>Quantidade de Pessoas</h1>
         
         <div class="resultado-contador">
-            <p>0</p>
+            <div class="resultado-box">
+                <p class="numero-contador">0</p>
 
-            <h2>Ultima Contagem</h3>
-
-            <p>0</p>
-        </div>
+                <div class="resultado-anterior">
+                    <h2>Ultima Contagem</h3>
+                    <p>0</p>
+                </div>
+            </div>
+        </div> 
 
         <div class="botoes">
-            <button>Somar</button>
+            <button class="botoes-item" id="somar">Somar</button>
 
-            <button>Remover</button>
+            <button class="botoes-item" id="remover">Remover</button>
 
-            <button>Zerar Contador</button>
+            <button class="botoes-item" id="zerar">Zerar Contador</button>
         </div>
-
-    
-
-        <footer>
-            <h3>Desenvolvido por @bincoleto</h2>
-        </footer>
 
     </div>
 
+    <footer>
+        <h3>Desenvolvido por @bincoleto</h2>
+    </footer>
+
+    <script src="contador.js"></script>
 </body>
 </html>

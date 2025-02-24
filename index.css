@@ -4,6 +4,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #629584;
+    max-height: 100vh;
+    max-width: 100%;
 }
 
 /* -- Inicio Cabecalho -- */
@@ -18,12 +20,79 @@ h1{
 
 /* -- Fim Cabecalho -- */
 
+/* -- Inicio Contador -- */
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultado-contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #387478;
+    border-radius: 22px;
+    font-family: "Strait", serif;
+    width: 40%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.numero-contador{
+    margin: 0;
+    font-size: 180px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.resultado-anterior{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.resultado-anterior h2{
+    margin: 0;
+    font-size: 32px;
+}
+
+.resultado-anterior p{
+    margin-top: 2px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+/* -- Fim Contador -- */
 
 /* -- Inicio Botoes -- */
 
+.botoes{
+    display: flex;
+    border-radius: 22px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+}
 
+.botoes-item{
+    font-family: "Strait", serif;
+    font-size: 24px;
+    background-color: #243642;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    border-radius: 14px;
+}
 
+.botoes-item:hover{
+    background-color: #243642d0;
+}
 
 /* -- Termino Botoes -- */
 
@@ -36,7 +105,7 @@ footer{
     text-align: center;
     font-family: "Strait", serif;
     font-size: 22px;
-    position: fixed;
+    position: fixed; 
     bottom: 0;
 }
 
@@ -46,3 +115,16 @@ footer h3{
 }
 
 /* -- Termino Footer -- */
+
+@media  (max-width: 1000px) {
+
+
+    .resultado-contador{
+        width: 80%;
+    }
+
+    .numero-contador{
+        font-size: 120px;
+    }
+    
+}
