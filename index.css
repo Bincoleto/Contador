@@ -105,8 +105,8 @@ footer{
     text-align: center;
     font-family: "Strait", serif;
     font-size: 22px;
-    position: fixed; 
-    bottom: 0;
+/*     position: fixed; 
+    bottom: 0; */
 }
 
 footer h3{
